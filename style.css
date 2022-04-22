@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+  display:flex;
+  font-family: "Hind", sans-serif;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #292b2c;
+  color:#fff;
+  margin:0;
+  padding:0;
+  border:none;
+  outline:none;
+}
+h1{
+    font-size: 8rem;
+}
+.styling{
+    color:#0275d8
+}
+.input_div{
+    width:300px;
+    height:auto;
+}
+.input_div .input{
+    width:15rem;
+    height:1.5rem;
+    font-family: "Hind", sans-serif;
+    border:none;
+    outline:none;
+    border-radius: 25px;
+    padding:5px;
+    margin:0;
+}
+
+.addButton{
+    font-weight: 20px;
+    font-size: 17px;
+    Height:1.8rem;
+    width:2rem;
+    border:none;
+    outline:none;
+    border-radius: 25px;
+    background-color: #0275d8;
+    color:#292b2c;
+    padding:0;
+    margin:0;
+    cursor:pointer;
+}
+.addButton:hover{
+    transform: scale(1.1);
+}
+.container{
+    font-size: 20px;
+    font-weight: 10px;
+    font-family: "Hind", sans-serif;
+    text-align: center;
+}
+.list-div{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding-top:1rem;
+    width: 300px;
+}
+.list-item{
+    Width:80%;
+    text-align: left;
+}
+
+.removeButton{
+    color:#d9534f;
+    width: .8em;
+    height:auto;
+    background: none;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: right;
+    border:none;
+    outline:none;
+}
